@@ -9,20 +9,17 @@ CONFIG += c++17
 #DEFINES += QT_DISABLE_DEPRECATED_BEFORE=0x060000    # disables all the APIs deprecated before Qt 6.0.0
 
 SOURCES += \
-    ExPerson.cpp \
     main.cpp \
-    exwidget.cpp
+    exqstring.cpp
 
 HEADERS += \
-    ../../../新建文件夹/QtMeatObjectEx/ExPerson.h \
-    ExPerson.h \
-    exwidget.h
+    exqstring.h
 
 FORMS += \
-    exwidget.ui
+    exqstring.ui
 
 TRANSLATIONS += \
-    QtMeatObjectEx_lj_zh_CN.ts
+    QtQStringEx_lj_zh_CN.ts
 CONFIG += lrelease
 CONFIG += embed_translations
 
